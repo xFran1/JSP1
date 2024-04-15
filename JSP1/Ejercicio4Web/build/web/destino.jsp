@@ -20,7 +20,7 @@
         n2=Double.parseDouble(request.getParameter("numero2"));
         n3=Double.parseDouble(request.getParameter("numero3"));
 
-        out.println(n1+n2+n3);
+        out.println((n1+n2+n3)/3);
         %>
     </body>
 </html>
